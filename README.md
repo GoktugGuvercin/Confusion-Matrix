@@ -10,7 +10,7 @@ In binary classification problems, there are only two categories, usually labele
 - *FN:* Miss (Type 2 Error)
 - *TN:* Correct Rejections
 
-### Classification Metrics
+## Classification Metrics
 
 - Accuracy: It measures the proportion of correct predictions.
 
