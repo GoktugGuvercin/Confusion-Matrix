@@ -46,7 +46,7 @@ Image segmentation aims to parition the image into meaningful regions. At this p
 Ultimately, segmentation is classification problem at the pixel level; that is why, all classification metrics are applicable. Predicted and ground-truth masks are compared to each other in calculation of these metrics. Overlapping regions refer to *true positive* and *true negative* regions, while non-overlapping spots indicate *false positive* or *false negative*. The number of pixels in these regions help to calculate total counting scores for TP, FP, FN, and TN. In that way, all classification metrics can be easily computed. Aside from classification, we also have 2 segmentation metrics, which are dice score and jaccard index:
 
 $$DSC = \frac{2 |A \cap B|}{|A| + |B|} = \frac{2 \cdot TP}{2 \cdot TP + FP + FN}$$ 
-$$JI = \frac{2 |A \cap B|}{|A \cup B|} = \frac{TP}{TP + FP + FN}$$
+$$JI = \frac{|A \cap B|}{|A \cup B|} = \frac{TP}{TP + FP + FN}$$
 
 <p align="center">
   <img src="https://github.com/GoktugGuvercin/Confusion-Matrix/blob/main/images/Segmentation.png" width="700" title="Segmentation">
