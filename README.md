@@ -30,7 +30,7 @@ $$\frac{TN}{TN + FP}$$
 
 - F1 Score: It is harmoic mean of precision and recall, where relative contribution of both measurements are equal. The models are expected to achieve good scores in both precision and recall. F1 score contracts 2 metrics into one. In that way, you would become capable of making comparison between the models in terms of both metrics at the same time.
 
-$$ \frac{2}{\frac{1}{Pre} + \frac{1}{Rec}} = \frac{2 \cdot Pre \cdot Rec}{Pre + Rec} = \frac{2 \cdot TP}{TP + FP + FN}$$
+$$ \frac{2}{\frac{1}{Pre} + \frac{1}{Rec}} = \frac{2 \cdot Pre \cdot Rec}{Pre + Rec} = \frac{2 \cdot TP}{2 \cdot TP + FP + FN}$$
 
 We can use the following interpretations to understand the computations of these metrics:
 
